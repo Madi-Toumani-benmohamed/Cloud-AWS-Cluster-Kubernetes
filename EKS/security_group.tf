@@ -3,6 +3,7 @@
 resource "aws_security_group" "alb_security_group" {
   name        = "alb-security-group"
   description = "Allow traffic on port 80 and 30007"
+  vpc_id      = aws_vpc.my_vpc.id
 
   ingress {
     from_port   = 80

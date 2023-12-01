@@ -2,8 +2,8 @@
 resource "aws_ecs_task_definition" "my_task_definition" {
   family       = "service"
   network_mode = "awsvpc"
-        cpu    = 1024
-      memory = 2048
+  cpu          = 1024
+  memory       = 2048
 
   container_definitions = jsonencode([
     {
