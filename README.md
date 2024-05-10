@@ -16,7 +16,9 @@ Une fois le déploiement terminé, vous pouvez accéder au cluster Kubernetes en
 Pour vérifier que votre cluster fonctionne correctement, vous pouvez exécuter la commande suivante pour afficher les nœuds du cluster :
 
 
+```shell
 kubectl get nodes
+```
 
 Déploiement de l'application web
 
