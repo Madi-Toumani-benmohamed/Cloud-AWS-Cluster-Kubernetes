@@ -20,7 +20,7 @@ kubectl get nodes
 
 Déploiement de l'application web
 
-Vous pouvez maintenant déployer votre application web sur le cluster Kubernetes en utilisant des fichiers de configuration Kubernetes (fichiers YAML) ou des outils de déploiement tels que Helm. Assurez-vous de suivre les meilleures pratiques de déploiement pour Kubernetes.
+Vous pouvez maintenant déployer votre application web sur le cluster Kubernetes en modifiant l'image docker téléchargée.
 
 Nettoyage
 
