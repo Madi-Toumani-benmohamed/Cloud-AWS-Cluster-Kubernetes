@@ -28,4 +28,7 @@ Nettoyage
 
 Après avoir terminé l'utilisation du cluster, n'oubliez pas de nettoyer les ressources AWS créées en exécutant la commande Terraform suivante :
 
+
+```shell
 terraform destroy
+```
